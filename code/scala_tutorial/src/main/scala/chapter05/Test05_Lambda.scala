@@ -6,6 +6,10 @@ package chapter05
 object Test05_Lambda {
   def main(args: Array[String]): Unit = {
 
+    // 将匿名函数赋给一个常量
+//    val fun = (name: String) => { println(name) }
+
+    // String为函数参数，Unit为函数返回值
     val fun: String => Unit = (name: String) => { println(name) }
     fun("zhangsan")
     println("======================")

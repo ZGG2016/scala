@@ -53,7 +53,7 @@ object Workday extends Enumeration{
   val TUESDAY = Value(2, "TuesDay")
 }
 
-// 应用类
+// 应用类  包含了main方法
 object TestApp extends App{
   println("app start")
 

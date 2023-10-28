@@ -1,0 +1,35 @@
+package chapter01;
+
+import scala.Predef.;
+import scala.reflect.ScalaSignature;
+
+@ScalaSignature(bytes="\006\001\0353A!\004\b\001#!A\001\004\001B\001B\003%\021\004\003\005%\001\t\005\r\021\"\001&\021!I\003A!a\001\n\003Q\003\002\003\031\001\005\003\005\013\025\002\024\t\013E\002A\021\001\032\t\013]\002A\021\001\035\b\013er\001\022\001\036\007\0135q\001\022A\036\t\013EBA\021\001\037\t\017uB!\031!C\001}!1q\b\003Q\001\neAQ\001\021\005\005\002\005\023qa\025;vI\026tGOC\001\020\003%\031\007.\0319uKJ\004\024g\001\001\024\005\001\021\002CA\n\027\033\005!\"\"A\013\002\013M\034\027\r\\1\n\005]!\"AB!osJ+g-\001\003oC6,\007C\001\016\"\035\tYr\004\005\002\035)5\tQD\003\002\037!\0051AH]8pizJ!\001\t\013\002\rA\023X\rZ3g\023\t\0213E\001\004TiJLgn\032\006\003AQ\t1!Y4f+\0051\003CA\n(\023\tACCA\002J]R\fq!Y4f?\022*\027\017\006\002,]A\0211\003L\005\003[Q\021A!\0268ji\"9qfAA\001\002\0041\023a\001=%c\005!\021mZ3!\003\031a\024N\\5u}Q\0311'\016\034\021\005Q\002Q\"\001\b\t\013a)\001\031A\r\t\013\021*\001\031\001\024\002\023A\024\030N\034;J]\032|G#A\026\002\017M#X\017Z3oiB\021A\007C\n\003\021I!\022AO\001\007g\016Dwn\0347\026\003e\tqa]2i_>d\007%\001\003nC&tGCA\026C\021\025\031E\0021\001E\003\021\t'oZ:\021\007M)\025$\003\002G)\t)\021I\035:bs\002")
+public class Student
+{
+  private final String name;
+  private int age;
+
+  // 这里
+  public static void main(String[] paramArrayOfString)
+  {
+    Student$.MODULE$.main(paramArrayOfString);
+  }
+
+   // 这里
+  public static String school()
+  {
+    return Student..MODULE$.school();
+  }
+
+  public int age()
+  {
+    return this.age; }
+  public void age_$eq(int x$1) { this.age = x$1; }
+  public void printInfo() {
+    Predef..MODULE$.println(2 + this.name + " " + age() + " " + Student$.MODULE$.school());
+  }
+
+  public Student(String name, int age)
+  {
+  }
+}

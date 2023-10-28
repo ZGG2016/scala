@@ -21,7 +21,7 @@ class Person8 {
 }
 
 class Student8 extends Person8 {
-  override val name: String = "student"
+  override val name: String = "student" // 这里
   override def hello(): Unit = {
     println("hello student")
   }

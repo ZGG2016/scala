@@ -14,7 +14,7 @@ object Test16_TraitSelfType {
 class User(val name: String, val password: String)
 
 trait UserDao{
-
+ // UserDao 是 User 类型
   _: User =>
 
   def insert(): Unit = {

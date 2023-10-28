@@ -1,0 +1,30 @@
+package chapter01;
+
+public final class Student$
+{
+  public static  MODULE$;
+  private final String school;
+
+  static
+  {
+    new ();
+  }
+
+  // 这里
+  public String school()
+  {
+    return this.school;
+  }
+  // 这里
+  public void main(String[] args) {
+    Student zhangsan = new Student("zhangsan", 14);
+    Student lisi = new Student("lisi", 14);
+
+    zhangsan.printInfo();
+    lisi.printInfo();
+  }
+  private Student$() { MODULE$ = this;
+
+    this.school = "atguigu";
+  }
+}

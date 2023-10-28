@@ -42,6 +42,7 @@ object Test06_HighLevelFunction {
     println("======================")
 
     // 2. 函数作为参数传递
+    // op 表示函数名称;  (Int,Int) 表示输入两个 Int 参数；Int 表示函数返回值
     def dualEval(op: (Int, Int) => Int, a: Int, b: Int): Int = {
       op(a, b)
     }

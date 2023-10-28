@@ -3,6 +3,7 @@ package chapter05
 /**
  * 函数：为完成某一功能的程序语句的集合
  * 方法：类中的函数
+ * 【结合前面的反编译内容理解】
  */
 object Test01_FunctionAndMethod {
   def main(args: Array[String]): Unit = {
@@ -20,7 +21,7 @@ object Test01_FunctionAndMethod {
     // 调用函数
     sayHi("zhangsan")
 
-    // 调研对象的方法
+    // 调用对象的方法
     Test01_FunctionAndMethod.sayHi("lisi")
   }
 

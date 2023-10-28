@@ -10,6 +10,7 @@ class Student(name: String, var age:Int) {
 }
 
 // 类Student的伴生对象 （伴生对象就是解决了 去掉java中的static关键字 的问题）
+// 凡是在伴生对象中定义的 属性和方法，反编译后，都会在对应的伴生类中有 相应的静态方法，在此静态方法内容中，由伴生对象调用其中的方法
 // （编译生成的Student$.class对应这个伴生对象 ）
 object Student{
   val school: String = "atguigu"

@@ -8,6 +8,8 @@ object Test04_MatchObject {
 
     val zhangsan = new Student4("zhangsan", 11)
     val res: String = zhangsan match {
+      // 调用 unapply 方法(对象提取器)，zhangsan 作为 unapply 方法的参数，unapply 方法
+      //将 zhangsan 对象的 name 和 age 属性提取出来，进行匹配
       case Student4("zhangsan", 11) => "ok"
       case _ => "not ok"
     }

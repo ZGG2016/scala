@@ -79,7 +79,7 @@ object Test02_MatchTypes {
     val list1 = List(1, 2, 5, 7, 24)
     val list2 = List(24)
 
-    list2 match {
+    list1 match {
       case first :: second :: rest => println(s"$first $second $rest") // 输出：1 2 List(5, 7, 24)
       case _ => println("something else")
     }

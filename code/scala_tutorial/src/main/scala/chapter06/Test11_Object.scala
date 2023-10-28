@@ -40,6 +40,6 @@ object Student11{
 
   // 可以将上述方法名修改为apply，此时在创建对象实例时，可以省略此方法名称
   // 所以，当使用 new 关键字构建对象时，调用的其实是类的构造方法，
-  //      当直接使用类名构 建对象时，调用的其实时伴生对象的 apply 方法
+  //      当直接使用类名构建对象时，调用的其实时伴生对象的 apply 方法
   def apply(name: String, age: Int): Student11 = new Student11(name, age)
 }

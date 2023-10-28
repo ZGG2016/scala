@@ -28,6 +28,13 @@ object Test12_MyWhile {
       doLoop _
     }
     n = 10
+    myWhile(n >= 1)({
+      println(n)
+      n -= 1
+    })
+
+    // 如果是代码块的话，外层的小括号可以省略不写
+    n = 10
     myWhile(n >= 1){
       println(n)
       n -= 1
